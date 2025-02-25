@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema personalizado para los diálogos de Fecha y Hora con tonos lila -->
+    <style name="CustomDatePickerDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <!-- Usamos un lila medio y oscuro para darle consistencia -->
+        <item name="colorPrimary">@color/lila_medio</item>
+        <item name="colorPrimaryVariant">@color/lila_oscuro</item>
+        <item name="colorAccent">@color/lila_medio</item>
+        <!-- Aplicamos nuestros estilos personalizados para DatePicker y TimePicker -->
+        <item name="android:datePickerDialogTheme">@style/CustomDatePicker</item>
+        <item name="android:timePickerDialogTheme">@style/CustomTimePicker</item>
+    </style>
+
+    <!-- Estilo para el DatePicker (selector de fecha) -->
+    <style name="CustomDatePicker" parent="Theme.MaterialComponents.Light.Dialog">
+        <!-- Fondo blanco para mantener buena legibilidad -->
+        <item name="android:background">@color/fondo_b</item>
+        <!-- Colores en tonos lila -->
+        <item name="android:colorAccent">@color/lila_medio</item>
+        <item name="android:colorPrimary">@color/lila_medio</item>
+        <item name="android:colorPrimaryDark">@color/lila_oscuro</item>
+    </style>
+
+    <!-- Estilo para el TimePicker (selector de hora) -->
+    <style name="CustomTimePicker" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:background">@color/fondo_b</item>
+        <item name="android:colorAccent">@color/lila_medio</item>
+        <item name="android:colorPrimary">@color/lila_medio</item>
+        <item name="android:colorPrimaryDark">@color/lila_medio</item>
+    </style>
+</resources>

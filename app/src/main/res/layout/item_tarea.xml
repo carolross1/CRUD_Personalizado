@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_marginVertical="5dp"
+    android:background="@drawable/contenedor_fondo">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título de la Tarea"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/txtFechaHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha y Hora"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtPrioridad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prioridad"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#AE5BC5" />
+
+    <CheckBox
+        android:id="@+id/checkCompletada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Completada"
+        android:focusable="false"
+        android:textColor="#8441AF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:focusableInTouchMode="false"/>
+</LinearLayout>

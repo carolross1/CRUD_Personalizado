@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="azul">#5C96C5</color>  <!-- Verde para cuando está marcado -->
+    <color name="gris">#BDBDBD</color>  <!-- Gris cuando está desmarcado -->
+    <color name="primary">#6200EE</color>  <!-- O cualquier color que prefieras -->
+    <color name="purple_500">#4A148C</color>
+    <!-- Colores principales -->
+    <color name="color_primario">#2196F3</color> <!-- Azul -->
+    <color name="color_primario_oscuro">#1976D2</color> <!-- Azul oscuro -->
+    <color name="color_acento">#d1bdef</color> <!-- Rosa -->
+    <color name="fondo_b">#a780e3</color>
+    <color name="lila_claro">#E1BEE7</color>
+    <color name="lila_medio">#BA68C8</color>
+    <color name="lila_oscuro">#8E24AA</color>
+    <color name="blanco">#FFFFFF</color>
+
+
+    <!-- Colores de fondo -->
+    <color name="fondo_claro">#F5F5F5</color> <!-- Gris claro -->
+    <color name="fondo_oscuro">#263238</color> <!-- Azul grisáceo oscuro -->
+    <color name="fondo_recycler">#FAFAFA</color> <!-- Fondo de la lista -->
+
+    <!-- Colores de texto -->
+    <color name="texto_primario">#212121</color> <!-- Negro suave -->
+    <color name="texto_secundario">#757575</color> <!-- Gris medio -->
+    <color name="texto_hint">#BDBDBD</color> <!-- Gris claro -->
+
+    <!-- Colores de botones -->
+    <color name="boton_normal">#4CAF50</color> <!-- Verde -->
+    <color name="boton_presionado">#388E3C</color> <!-- Verde oscuro -->
+
+    <!-- Colores adicionales -->
+
+    <color name="negro">#000000</color>
+    <color name="gris_claro">#E0E0E0</color>
+    <color name="fondo_suave">#F7F7F7</color> <!-- Color de fondo general -->
+    <color name="tarjeta_fondo_claro">#f3ebff</color> <!-- Fondo claro para tarjetas -->
+
+
+</resources>
